@@ -9,4 +9,10 @@ module.exports = (app) => {
             context.issue({ body: "Hello, World!" })
         )
     })
+
+    app.on("push", (context) => {
+        context.log.info(
+            "Code was pushed to the repo, what should we do with it?"
+        )
+    })
 }
