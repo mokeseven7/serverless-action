@@ -1,6 +1,6 @@
 default_events:
-  - issues
+    - issues
 
 default_permissions:
-  issues: write
-  metadata: read
+    issues: write
+    metadata: read
