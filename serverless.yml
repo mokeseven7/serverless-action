@@ -13,7 +13,7 @@
 
 org: dopefruit
 app: serverless-action
-service: mokeseven7
+service: deploy-checks
 
 frameworkVersion: "2"
 useDotenv: true
